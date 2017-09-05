@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tagrem Test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="wrapper">
+        <img class="banner" src="images/banner.jpg">
+    </div>
+        <h4>Connect<p class="vr"></p><p class="vr"></p><img src="images/twitter.png"><p class="vr"></p><img src="images/fb.png"><p class="vr"></p><img src="images/pinterest.png"><p class="vr"></p><img src="images/blog.png"><p class="vr"></p><img src="images/email.png"></h4>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-7 col-xs-12">
+                <h1 style="color:#002b5a;">In Gravida Libero</h1>
+                <p class="pHeader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim neque, molestie ut placerat id, tincidunt in sem. Pellentesque sodales lobortis eros nec pulvinar. In ac ultrices ipsum, ultricies semper nisi. Morbi ac hendrerit nulla. Sed nec ex commodo, tincidunt felis ac, iaculis ipsum.</p>
+                <p class="pHeader">Morbi ac hendrerit nulla. Sed nec ex commodo, tincidunt felis ac, iaculis ipsum</p>
+            </div>
+            <div class="col-md-4 col-sm-5 col-xs-12">
+                <div class="card4">
+                    <div class="wrapper">
+                        <h2 id="cardTitle" style="color:#002b5a;">State Finder</h2>
+                        <p id="cardSubtitle">Morbi ac hendrerit nulla. Sed nec ex commodo</p>
+                        <!-- <input type="text" id="default" list="states" placeholder="Search Hotels"> -->
+                        <div class="input-group">
+                            <input class="form-control" placeholder="Search Hotels" id="search" type="text" list="states" onkeyup="searchSel()">
+                            <span class="input-group-btn" style="padding-left: 0;">
+                                <a class="btn btn-default" style="padding-left: 0;" type="button"><img src="images/search.png"></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <ul id="states">
+                    <li value=""><a href="#">Select State</a></li>
+                    <li value="AL"><a href="#">Alabama</a></li>
+                    <li value="AK"><a href="#">Alaska</a></li>
+                    <li value="AZ"><a href="#">Arizona</a></li>
+                    <li value="AR"><a href="#">Arkansas</a></li>
+                    <li value="CA"><a href="#">California</a></li>
+                    <li value="CO"><a href="#">Colorado</a></li>
+                    <li value="CT"><a href="#">Connecticut</a></li>
+                    <li value="DE"><a href="#">Delaware</a></li>
+                    <li value="DC"><a href="#">District Of Columbia</a></li>
+                    <li value="FL"><a href="#">Florida</a></li>
+                    <li value="GA"><a href="#">Georgia</a></li>
+                    <li value="HI"><a href="#">Hawaii</a></li>
+                    <li value="ID"><a href="#">Idaho</a></li>
+                    <li value="IL"><a href="#">Illinois</a></li>
+                    <li value="IN"><a href="#">Indiana</a></li>
+                    <li value="IA"><a href="#">Iowa</a></li>
+                    <li value="KS"><a href="#">Kansas</a></li>
+                    <li value="KY"><a href="#">Kentucky</a></li>
+                    <li value="LA"><a href="#">Louisiana</a></li>
+                    <li value="ME"><a href="#">Maine</a></li>
+                    <li value="MD"><a href="#">Maryland</a></li>
+                    <li value="MA"><a href="#">Massachusetts</a></li>
+                    <li value="MI"><a href="#">Michigan</a></li>
+                    <li value="MN"><a href="#">Minnesota</a></li>
+                    <li value="MS"><a href="#">Mississippi</a></li>
+                    <li value="MO"><a href="#">Missouri</a></li>
+                    <li value="MT"><a href="#">Montana</a></li>
+                    <li value="NE"><a href="#">Nebraska</a></li>
+                    <li value="NV"><a href="#">Nevada</a></li>
+                    <li value="NH"><a href="#">New Hampshire</a></li>
+                    <li value="NJ"><a href="#">New Jersey</a></li>
+                    <li value="NM"><a href="#">New Mexico</a></li>
+                    <li value="NY"><a href="#">New York</a></li>
+                    <li value="NC"><a href="#">North Carolina</a></li>
+                    <li value="ND"><a href="#">North Dakota</a></li>
+                    <li value="OH"><a href="#">Ohio</a></li>
+                    <li value="OK"><a href="#">Oklahoma</a></li>
+                    <li value="OR"><a href="#">Oregon</a></li>
+                    <li value="PA"><a href="#">Pennsylvania</a></li>
+                    <li value="RI"><a href="#">Rhode Island</a></li>
+                    <li value="SC"><a href="#">South Carolina</a></li>
+                    <li value="SD"><a href="#">South Dakota</a></li>
+                    <li value="TN"><a href="#">Tennessee</a></li>
+                    <li value="TX"><a href="#">Texas</a></li>
+                    <li value="UT"><a href="#">Utah</a></li>
+                    <li value="VT"><a href="#">Vermont</a></li>
+                    <li value="VA"><a href="#">Virginia</a></li>
+                    <li value="WA"><a href="#">Washington</a></li>
+                    <li value="WV"><a href="#">West Virginia</a></li>
+                    <li value="WI"><a href="#">Wisconsin</a></li>
+                    <li value="WY"><a href="#">Wyoming</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card4">
+            <div class="row">
+                <h2 style="color:#002b5a;">In Gravida</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Cras ac mauris</h3>
+                    <p>nteger dictum hendrerit pharetra. Cras fermentum posuere egestas.</p>
+                    <a class="btnMore" href="http://ia.media-imdb.com/images/M/MV5BMTY4Njc5MjY3MV5BMl5BanBnXkFtZTcwOTk1NzY2MQ@@._V1_CR0,30,250,141_AL_UX477_CR0,0,477,268_AL_.jpg" target="_blank">Learn More<img src="images/arrow-btn-blue.png"></a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Curabitur elementum</h3>
+                    <p>Cras vel imperdiet mauris. Pellentesque libero mauris, interdum a felis et, condimentum mattis erat.</p>
+                    <a class="btnMore" href="http://ia.media-imdb.com/images/M/MV5BMTY4Njc5MjY3MV5BMl5BanBnXkFtZTcwOTk1NzY2MQ@@._V1_CR0,30,250,141_AL_UX477_CR0,0,477,268_AL_.jpg" target="_blank">Learn More<img src="images/arrow-btn-blue.png"></a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Awards and Recognitions</h3>
+                    <p>Aliquam eget ligula mauris. Etiam viverra non turpis eu auctor. Nullam pretium est libero, et condimentum massa egestas id. </p>
+                    <a class="btnMore" href="http://ia.media-imdb.com/images/M/MV5BMTY4Njc5MjY3MV5BMl5BanBnXkFtZTcwOTk1NzY2MQ@@._V1_CR0,30,250,141_AL_UX477_CR0,0,477,268_AL_.jpg" target="_blank">Learn More<img src="images/arrow-btn-blue.png"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Morbi placerat </h3>
+                    <p> Nam feugiat ultrices ligula eget faucibus. Mauris convallis ipsum est.</p>
+                    <a class="btnMore" href="http://ia.media-imdb.com/images/M/MV5BMTY4Njc5MjY3MV5BMl5BanBnXkFtZTcwOTk1NzY2MQ@@._V1_CR0,30,250,141_AL_UX477_CR0,0,477,268_AL_.jpg" target="_blank">Learn More<img src="images/arrow-btn-blue.png"></a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Suspendisse eu</h3>
+                    <p>Duis pretium elementum dui, id feugiat neque facilisis vel.</p>
+                    <a class="btnMore" href="http://ia.media-imdb.com/images/M/MV5BMTY4Njc5MjY3MV5BMl5BanBnXkFtZTcwOTk1NzY2MQ@@._V1_CR0,30,250,141_AL_UX477_CR0,0,477,268_AL_.jpg" target="_blank">Learn More<img src="images/arrow-btn-blue.png"></a>
+                </div>
+                <div class="col-md-4">
+                    <h3> Integer faucibus</h3>
+                    <p> Vivamus at rutrum est, eu pellentesque lacus. Curabitur imperdiet tortor sit amet enim ullamcorper, a aliquet odio rutrum.</p>
+                    <a class="btnMore" href="http://ia.media-imdb.com/images/M/MV5BMTY4Njc5MjY3MV5BMl5BanBnXkFtZTcwOTk1NzY2MQ@@._V1_CR0,30,250,141_AL_UX477_CR0,0,477,268_AL_.jpg" target="_blank">Learn More<img src="images/arrow-btn-blue.png"></a>
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <div class="card5">
+            <div class="wrapper"> 
+                <div class="row" id="filter">
+                <div class="pull-left">
+                <h2 style="color:#002b5a;">Products</h2> 
+                </div>
+                <div class="pull-right">
+                Fitler by <p class="vr"></p>
+                <select id="mySelect" onchange="filter()">
+                    <option value='1' selected="selected">All</option>
+                    <option value='2'>Less Than $500</option>
+                    <option value='3'>From $500 to $1000</option>
+                    <option value='4'>From $1000 to $2000</option>
+                    <option value='5'>$2000 or more</option>
+                </select>
+                </div>
+                </div>
+                <ul id="pdt">
+                    <div class="row">
+                        <!-- product one -->
+                        <div id="fCard" class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <li id="1">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <h3 class="pTitle">Product Title 1</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p class="sAt">Staring at $500</p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p class="pMore">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <img src="images/cereal_b.jpg" alt="Bowls of Cereal" class="img-responsive" />
+                                    </div>
+                                    <br>
+                                    <div class="panel-body">
+                                        <a class="pMore">Learn More</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <!-- product two -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <li id="2">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <h3 class="pTitle">Product Title 2</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p class="sAt">Staring at $1900</p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p class="pMore">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <img src="images/flower_b.jpg" alt="Purple Flower" class="img-responsive" />
+                                    </div>
+                                    <br>
+                                    <div class="panel-body">
+                                        <a class="pMore">Learn More</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <!-- product three -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <li id="3">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <h3 class="pTitle">Product Title 3</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p class="sAt">Staring at $2730</p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p class="pMore"> Donec ornare magna sit amet erat molestie sollicitudin ac vitae lectus.</p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <img src="images/machine_b.jpg" alt="Clock Mechanism" class="img-responsive" />
+                                    </div>
+                                    <br>
+                                    <div class="panel-body">
+                                        <a class="pMore">Learn More</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <!-- product four -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <li id="4">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <h3 class="pTitle">Product Title 4</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p class="sAt">Staring at $731</p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p class="pMore">Pellentesque mattis tellus ut molestie dapibus.</p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <img src="images/candy_b.jpg" alt="Candy in a Jar" class="img-responsive" />
+                                    </div>
+                                    <br>
+                                    <div class="panel-body">
+                                        <a class="pMore">Learn More</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+                <div class="row"  id="grid1">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <p class="pTitle2">Title</p>
+                        </div>
+                        <div class="row">
+                            <p class="sAt2">Price</p>
+                        </div>
+                        <div class="row">
+                            <p class="pMore">Lorem Epson</p>
+                        </div>
+                        <div class="row">
+                            <a class="btnBuy btn" href="http://www.amazon.com" target="_blank" >Buy Online<img src="images/arrow-btn-white.png"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-offset-11 col-md-1">
+                                <img src="images/close.png" id='close'>
+                            </div>
+                        </div>
+                        <div class="row" id="productPicture">
+                           <!--  <img src="images/flower_b.jpg" class="img-responsive" id="image"> -->
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                window.products = {
+                    1: {
+                        id: 1,
+                        order: 1,
+                        'title': 'Product Title 1',
+                        'price': 'Staring at $500',
+                        'desc': 'Cras a ante eget dui dignissim molestie nec non lectus. Donec id sapien tristique, iaculis odio a, gravida ligula. In hac habitasse platea dictumst. Praesent non lacus elit. Sed convallis erat sem, ac egestas ipsum tempor in. Sed consectetur ex at dolor ullamcorper vulputate. Ut tristique ipsum velit, eget pretium ipsum dictum vel. Aenean ut tempus elit, non facilisis odio. Vivamus hendrerit ipsum vel risus ultrices, ut ornare metus ornare. Quisque semper ante ac pellentesque vestibulum. Cras a massa turpis. Pellentesque congue leo velit, non porta dui euismod nec.<br> <br> Mauris sed enim risus. Quisque mollis justo quis commodo euismod. Nullam non massa in lorem cursus sagittis. Sed laoreet felis mauris, a eleifend sapien molestie eget. Duis at volutpat elit. Phasellus sit amet erat ut libero lobortis sollicitudin pellentesque ac lectus. Phasellus venenatis ultrices justo nec venenatis.<br><br>' + '<ul>' + '     <li>Non porta dui euismod nec</li>' + '     <li>Ut tristique ipsum velit</li>' + '     <li>Quisque mollis justo</li>' + '</ul>',
+                        'uri-stub': '/buy-mattress/iseries/iseries-hybrid/iseries-approval-super-pillow-top',
+                        'src': 'images/cereal_b.jpg'
+                    },
+                    2: {
+                        id: 2,
+                        order: 2,
+                        'title': 'Product Title 2',
+                        'price': 'Staring at $1900',
+                        'desc': 'Cras a ante eget dui dignissim molestie nec non lectus. Donec id sapien tristique, iaculis odio a, gravida ligula. In hac habitasse platea dictumst. Praesent non lacus elit. Sed convallis erat sem, ac egestas ipsum tempor in. Sed consectetur ex at dolor ullamcorper vulputate. Ut tristique ipsum velit, eget pretium ipsum dictum vel. Aenean ut tempus elit, non facilisis odio. Vivamus hendrerit ipsum vel risus ultrices, ut ornare metus ornare. Quisque semper ante ac pellentesque vestibulum. Cras a massa turpis. Pellentesque congue leo velit, non porta dui euismod nec.<br> <br> Mauris sed enim risus. Quisque mollis justo quis commodo euismod. Nullam non massa in lorem cursus sagittis. Sed laoreet felis mauris, a eleifend sapien molestie eget. Duis at volutpat elit. Phasellus sit amet erat ut libero lobortis sollicitudin pellentesque ac lectus. Phasellus venenatis ultrices justo nec venenatis.',
+                        'uri-stub': '/buy-mattress/iseries/iseries-hybrid/iseries-approval-super-pillow-top',
+                        'src': 'images/flower_b.jpg'
+                    },
+                    3: {
+                        id: 3,
+                        order: 3,
+                        'title': 'Product Title 3',
+                        'price': 'Staring at $2730',
+                        'desc': 'Cras a ante eget dui dignissim molestie nec non lectus. Donec id sapien tristique, iaculis odio a, gravida ligula. In hac habitasse platea dictumst. Praesent non lacus elit. Sed convallis erat sem, ac egestas ipsum tempor in. Sed consectetur ex at dolor ullamcorper vulputate. Ut tristique ipsum velit, eget pretium ipsum dictum vel. Aenean ut tempus elit, non facilisis odio. Vivamus hendrerit ipsum vel risus ultrices, ut ornare metus ornare. Quisque semper ante ac pellentesque vestibulum. Cras a massa turpis. Pellentesque congue leo velit, non porta dui euismod nec.<br> <br> Mauris sed enim risus. Quisque mollis justo quis commodo euismod. Nullam non massa in lorem cursus sagittis. Sed laoreet felis mauris, a eleifend sapien molestie eget. Duis at volutpat elit. Phasellus sit amet erat ut libero lobortis sollicitudin pellentesque ac lectus. Phasellus venenatis ultrices justo nec venenatis.',
+                        'uri-stub': '/buy-mattress/iseries/iseries-hybrid/iseries-approval-super-pillow-top',
+                        'src': 'images/machine_b.jpg'
+                    },
+                    4: {
+                        id: 4,
+                        order: 4,
+                        'title': 'Product Title 3',
+                        'price': 'Staring at $731',
+                        'desc': 'Cras a ante eget dui dignissim molestie nec non lectus. Donec id sapien tristique, iaculis odio a, gravida ligula. In hac habitasse platea dictumst. Praesent non lacus elit. Sed convallis erat sem, ac egestas ipsum tempor in. Sed consectetur ex at dolor ullamcorper vulputate. Ut tristique ipsum velit, eget pretium ipsum dictum vel. Aenean ut tempus elit, non facilisis odio. Vivamus hendrerit ipsum vel risus ultrices, ut ornare metus ornare. Quisque semper ante ac pellentesque vestibulum. Cras a massa turpis. Pellentesque congue leo velit, non porta dui euismod nec.<br> <br> Mauris sed enim risus. Quisque mollis justo quis commodo euismod. Nullam non massa in lorem cursus sagittis. Sed laoreet felis mauris, a eleifend sapien molestie eget. Duis at volutpat elit. Phasellus sit amet erat ut libero lobortis sollicitudin pellentesque ac lectus. Phasellus venenatis ultrices justo nec venenatis.',
+                        'uri-stub': '/buy-mattress/iseries/iseries-hybrid/iseries-approval-super-pillow-top',
+                        'src': 'images/candy_b.jpg'
+                    }
+                }
+                </script>
+            </div>
+        </div>
+    </div>
+    <script src="js/dropdown.js"></script>
+    <script src="js/products.js"></script>
+</body>
+
+</html>

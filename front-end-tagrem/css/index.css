@@ -1,0 +1,311 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #dae2ef;
+	src: url("https://fonts.googleapis.com/css?family=Lato");
+	font-family:'Lato', sans-serif;
+}
+div {
+	padding: 16px;
+}
+div.wrapper {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+    position: relative;
+    z-index : 1;
+}
+h4 {
+	color: #edf1f7;
+	font-size: 18px;
+	font-weight: 200;
+}
+div.wrapper + h4 { 
+	position: absolute; 
+	z-index: 1; 
+	top: 80%; 
+	right: 20%; 
+}
+div.wrapper + h4:hover { 
+	cursor: pointer;
+}
+}
+h1, h2, h3 {
+	color: #002b5a;
+	bottom-margin: 42px;
+	font-family: 'Lato', sans-serif;
+	text-style: capitalize;
+}
+h1 {
+	font-size: 42px;
+	font-weight: 200;
+}
+h2 {
+	font-size: 40px;
+	font-weight: 200;
+}
+
+h3 {
+	font-size: 17px;
+	color: #002b5a;
+	font-weight: normal;
+}
+.pHeader {
+	 color:#333;  
+	 font-family: 'Lato', sans-serif; 
+	 font-size:18px;
+}
+p {
+	font-size:12px; 
+	text-alignment: justify;
+}
+div.input-group{
+	margin: 0px;
+	padding: 0px;
+}
+div .panel-body {
+	margin:0;
+	padding:0;
+}
+ul #pdt {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+ul li {
+	list-style-type: none;
+}
+ a img {
+	margin-left: 10px;
+	margin-bottom: 3px;
+}
+.sAt {
+	color:#4987ca; 
+	font-size: 13px;
+}
+#pdt h3:hover, #pdt img:hover {
+	cursor: pointer;
+	transform: scale(1.02);
+	transition: all .2s ease-in-out;
+}
+#pdt a {
+	cursor: default;
+	color: #666666;
+
+}
+.card44 {
+    background-color: #edf1f7;
+    border-radius: 3px;
+    z-index: -10;
+    position: absolute;
+}
+.card4 {
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
+	background-color: #edf1f7;
+    border-radius: 3px;
+}
+.card4 p {
+	margin-bottom: 30px;
+	line-height: 2.0;
+}
+.card5 {
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
+	background-color: #edf1f7;
+    border-radius: 3px;
+}
+.banner {
+	margin: 0px auto;
+	padding: 0;
+	width: 100%;
+	overflow: hidden; 
+}
+.pTitle {
+	color: #002b5a; 
+	font-size:17px;
+	margin: 6px 0 15px;
+}
+.pPrice {
+	color:#4987ca; 
+	font-size: 13px;
+}
+
+.pMore {
+	font-size: 13px;
+	color: #666666;
+}
+.btnMore {
+	background-color: #ffffff;
+	color: #002b5a;
+	font-size: 14px;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+	padding: 8px 12px;
+	margin-top:100px;
+}
+button:hover, a:hover{
+	cursor: pointer;
+	text-decoration: none !important;
+}
+.btnBuy {
+	background-color: #002b5a;
+	color: #ffffff;
+	font-size: 14px;
+	border-radius: 3px;
+	box-radius: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+	padding: 11px 10px;
+}
+.btnBuy:hover {
+	color: black;
+}
+.blue {
+	color: #002b5a;
+}
+h2 #cardTitle {
+	font-size: 20px;
+	margin: 0 0 20px 0;
+}
+#cardSubtitle {
+	color: #002b5a; 
+	font-size:12px;
+	margin: 0 0 5px 0;
+}
+
+select {
+	color: #002b5a;
+	font-size: 13px;
+	margin: 0px;
+}
+option {
+	color: #002b5a;
+}
+
+#states {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index:10;
+    position: absolute;
+    width: 92%;
+}
+
+#states li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    border-radius: 4px;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 8px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 13px; /* Increase the font-size */
+    color: #002b5a; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+
+#states li a:hover {
+    background-color: #8dade0; /* Add a hover effect to all links, except for headers */
+}
+#close:hover {
+	cursor: pointer;
+}
+.pTitle2 {
+	color: #002b5a; 
+	font-size: 24px;
+}
+.sAt2 {
+	color:#4987ca;
+	font-size: 19px;
+}
+#mySelect {
+	padding: 7px 5px;
+	width: 165px;
+	overflow:hidden;
+}
+ select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 1px;
+    border: none;
+    background: white url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat 138px center;
+}
+.vr {
+	display: inline;
+	margin: 0 3px;
+}
+#filter, .pull-left h2,  ul{
+	padding: 0;
+	margin: 0;
+}
+div .pull-right {
+	margin-top: 10px;
+}
+@media (max-width: 760px) {
+	div.wrapper + h4 { 
+	position: absolute; 
+	z-index: 1; 
+	top: 75%; 
+	right: 20%; 
+}
+}
+@media (max-width: 640px) {
+	div.wrapper + h4 { 
+	position: absolute; 
+	z-index: 1; 
+	top: 70%; 
+	right: 20%; 
+}
+}
+@media (max-width: 640px) {
+	div.wrapper + h4 { 
+	position: absolute; 
+	z-index: 1; 
+	top: 65%; 
+	right: 20%; 
+}
+@media (max-width: 640px) {
+	.btnBuy {
+		display: block;
+	}
+	.btnBuy img {
+		margin-left:400px;
+	}
+}
+@media (max-width: 600px) {
+		.btnBuy img {
+		margin-left:350px;
+	}
+}
+@media (max-width: 560px) {
+		.btnBuy img {
+		margin-left:300px;
+	}
+}
+@media (max-width: 530px) {
+	.btnBuy img{
+		margin-left: 280px;
+	}
+}
+@media (max-width: 510px) {
+	.btnBuy img{
+		margin-left: 260px;
+	}
+}
+@media (max-width: 500px) {
+	.btnBuy img{
+		margin-left: 230px;
+	}
+}
+@media (max-width: 480px) {
+	.btnBuy img{
+		margin-left: 200px;
+	}
+}
